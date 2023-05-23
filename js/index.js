@@ -10,6 +10,7 @@ var mySwiper = new Swiper(".swiper-container", {
   autoplay: {
     delay: 5000,
   },
+  spaceBetween: 0,
 
   // If we need pagination
   // pagination: {
@@ -23,3 +24,11 @@ var mySwiper = new Swiper(".swiper-container", {
   //   el: '.swiper-scrollbar',
   // },
 });
+var myVideo = document.getElementById("video");
+function playPause() {
+  if (myVideo.paused) {
+    myVideo.play();
+  } else {
+    myVideo.pause();
+  }
+}
