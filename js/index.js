@@ -7,6 +7,9 @@ var mySwiper = new Swiper(".swiper-container", {
     slideShadows: false,
     shadow: false,
   },
+  autoplay: {
+    delay: 5000,
+  },
 
   // If we need pagination
   // pagination: {
